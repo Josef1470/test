@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table{
+    width: 50%;
+}
+
+tr:hover{
+    background-color: coral;
+    height: 100px;
+}
+
+#data_table{
+    display: flex;
+    justify-content: center;
+}
