@@ -51,6 +51,8 @@
         ?>
 
     </table>
+
+    <a href="./php/userdata.php">Gå till registrering</a>
 </div>
 </body>
 </html>

@@ -8,6 +8,8 @@
 </head>
 <body>
     <!-- Formulär för inmatning av info -->
+
+    <div id="form">
     <form action="#" method="post" enctype="multipart/form-data">
         <label for="fname">First name:* </label> <br>
         <input type="text" name="fname" placeholder="John"> <br> <br>
@@ -24,6 +26,8 @@
         <input type="submit" name="submit" value="Spara">
     </form>
 
+    <a href="../index.php">Gå till table</a>
+</div>
 
 
 
@@ -132,5 +136,6 @@ if (isset($_POST["submit"])){
 }
 
 ?>
+
 </body>
 </html>
